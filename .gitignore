@@ -1,0 +1,59 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables (API keys, secrets)
+.env
+.env.*
+
+# Python virtual environments
+venv/
+.env_venv/
+.venv/
+env/
+
+# Logs and cache
+*.log
+.pytest_cache/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings folder
+.vscode/
+
+# macOS files
+.DS_Store
+
+# Editor swap files
+*.swp
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# mypy type checker cache
+.mypy_cache/
+
+# pipenv lock file
+Pipfile.lock
+
+# Docker override files or local build configs (if any)
+docker-compose.override.yml
+*.dockerfile
+
+# Node modules folder for React frontend (if exists)
+node_modules/
+
+# React build output folders
+build/
+dist/
+
+# IDE files
+.idea/
+
+# Secrets files (if any)
+secret_key.txt
+*.pem
